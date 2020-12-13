@@ -12,7 +12,7 @@ class Data extends React.Component {
     posts: []
   };
 
-  omponentDidMount = () => {
+  componentDidMount = () => {
     this.getBlogPost();
   };
 
