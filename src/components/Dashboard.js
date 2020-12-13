@@ -4,7 +4,7 @@ import { useAuth } from "../contexts/AuthContext"
 import { Link, useHistory } from "react-router-dom"
 import Data from "./Data"
 
-export default function Dashboard() {
+xport default function Dashboard() {
   const [error, setError] = useState("")
   const { currentUser, logout } = useAuth()
   const history = useHistory()
